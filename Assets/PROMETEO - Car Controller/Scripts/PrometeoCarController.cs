@@ -164,7 +164,7 @@ public class PrometeoCarController : MonoBehaviour
       //In this part, we set the 'carRigidbody' value with the Rigidbody attached to this
       //gameObject. Also, we define the center of mass of the car with the Vector3 given
       //in the inspector.
-      ukcarRigidbody = gameObject.GetComponent<Rigidbody>();
+      carRigidbody = gameObject.GetComponent<Rigidbody>();
       // carRigidbody.centerOfMass = bodyMassCenter;
 
       //Initial setup to calculate the drift value of the car. This part could look a bit
